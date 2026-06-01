@@ -17,7 +17,7 @@ export const program: any = [
   {
     time: "16:30",
     title: "Եկեղեցի",
-    subt:'Խոր Վիրապի',
+    subt:'Խոր Վիրապ',
     address: "Խոր Վիրապի վանք",
   },
   {

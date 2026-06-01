@@ -15,7 +15,7 @@ export function Program() {
 
 const getImage = (title: any) => {
   if (title === "Եկեղեցի") return "/img4.jpg";
-  if (title === "Հարսանյաց սրահ") return "/img5.jpg";
+  if (title === "Ռեստորան") return "/img5.jpg";
   return null;
 };
 
@@ -32,7 +32,7 @@ const ProgramItem = ({ time, title, address ,subt}: any) => {
         {subt}
       </motion.p>
 
-      {img && <img src={img} className="my-4 w-full" />}
+      <img src={img} className="my-4 w-full" />
 
       <motion.a
         {...anim}
