@@ -66,7 +66,6 @@ export function Home() {
       </div>
 
       <div className="  bg-cover bg-center m-auto max-w-md w-full h-max" style={{ backgroundImage: `url("/bg.png")` }}>
-
         <div className=" rounded-b-[220px] px-10 py-50 grid gap-8 w-full h-[90dvh] bg-cover  bg-no-repeat " style={{ backgroundImage: `url("/img1.jpg")` }}>
           <motion.h2 {...anim} className="FontArmHmk text-2xl font-bold">
             {txt1Title}
@@ -108,19 +107,20 @@ export function Home() {
           <motion.p {...anim} className="mt-10 font-bold text-2xl px-5 ">
             {txt4}
           </motion.p>
-          <div className="relative">
 
-            <div className="px-10  py-20">
-              <Image
-                src="/img3.jpg"
-                width={500}
-                height={500}
-                alt="jamanak"
-                className=" object-cover relative z-10"
-              />
-            </div>
-            <div className="w-full absolute z-1 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  h-50 bg-guyn "></div>
+        </div>
+
+        <div className="relative">
+          <div className="px-10  py-20">
+            <Image
+              src="/img3.jpg"
+              width={500}
+              height={500}
+              alt="jamanak"
+              className=" object-cover relative z-10"
+            />
           </div>
+          <div className="w-full absolute z-1 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  h-50 bg-guyn "></div>
         </div>
       </div>
       <Footer />
