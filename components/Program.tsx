@@ -32,7 +32,7 @@ const ProgramItem = ({ time, title, address ,subt}: any) => {
         {subt}
       </motion.p>
 
-      <img src={img} className="my-4 w-full" />
+      {img && <img src={img} className="my-4 w-full" />}
 
       <motion.a
         {...anim}
